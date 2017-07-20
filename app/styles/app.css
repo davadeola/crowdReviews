@@ -1,0 +1,13 @@
+.header{
+  background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/39/pool-690034__340.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5%;
+}
+
+form{
+  background-color: white;
+  padding: 3%;
+
+}

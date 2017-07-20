@@ -1,0 +1,22 @@
+<div class="">
+  <form class="form">
+    {{#if addBusinessSubmit}}
+    <p class="well text-success center-block"><b>Thank you for registering with us</b></p>
+    {{/if}}
+    <div class="form-group">
+      <label for="name">Enter business name</label> {{input class='form-control' value=name placeholder="Enter your business name" id='name'}}
+    </div>
+    <div class="form-group">
+      <label for="type">Enter business type</label> {{input class='form-control' value=type placeholder="Enter your business type" id='type'}}
+    </div>
+    <div class="form-group">
+      <label for="description">Enter business description</label> {{textarea rows="10"class='form-control' value=description placeholder="Enter your business description" id="description"}}
+    </div>
+
+    <div class="form-group">
+      <label for="imageURL">Enter business image URL</label> {{input class='form-control' value=imageURL placeholder="Enter your business image URL" id="imageURL "}}
+    </div>
+    <button type="button" name="button" {{action 'addBusiness'}} class="btn btn-success">Add Business</button>
+  </form>
+
+</div>
